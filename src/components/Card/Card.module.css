@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: .125rem solid var(--black);
+    border-radius: 10px;
+    transition: box-shadow .1s ease;
+    margin-block: 1.875rem;
+    width: 22rem;
+    cursor: auto;
+}
+
+.card:hover {
+    box-shadow: .625rem .625rem var(--black);
+    opacity: .8;
+}
+
+.cardImage {
+    border-radius: .5rem .5rem 0 0;
+    border-bottom: .125rem solid var(--black);
+}
+
+.cardInfoSection {
+    padding: 1.25rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.cardTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.cardText {
+    font-size: .875rem;
+    color: var(--blue);
+    opacity: .8;
+}
+
+@media (width > 1023px) {
+    .card {
+        width: 28rem;
+    }
+}

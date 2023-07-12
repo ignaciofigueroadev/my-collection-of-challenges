@@ -1,0 +1,44 @@
+.challengeCard {
+    width: 23rem;
+    margin-top: 1.25rem;
+    border: .125rem solid var(--black);
+    box-shadow: .625rem .625rem var(--black-opac);
+    border-radius: .625rem;
+}
+
+.challengeCardIcon {
+    width: 2rem;
+    transition: transform .1s ease;
+}
+
+.challengeCardIcon:hover {
+    transform: scale(1.2);
+}
+
+.challengeCardImage {
+    border-radius: .4375rem .4375rem 0 0;
+    border-bottom: .125rem solid var(--black);
+}
+
+.challengeCardInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 30px;
+}
+
+.challengeCardTitle {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.challengeCardTechnologies {
+    font-size: .75rem;
+}
+
+.challengeCardLinks {
+    border-top: 1px solid var(--black);
+    padding-top: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+}

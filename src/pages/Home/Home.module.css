@@ -1,0 +1,80 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding-inline: 35px;
+}
+
+.homeDiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.homeTitle {
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+
+.homeDescription {
+  font-size: 1rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.homeButton {
+  display: inline-block;
+}
+
+.homeLink {
+  display: inline-block;
+}
+
+.homeComputerIcon {
+  font-size: 10rem;
+  color: var(--blue);
+}
+
+.homeMobileIcon {
+  display: none;
+}
+
+.homeButtonsSection {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (width <=740px) {
+  .home {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .homeTitle {
+    font-size: 2.5rem;
+  }
+
+  .homeComputerIcon {
+    display: none;
+  }
+
+  .homeMobileIcon {
+    display: block;
+    font-size: 3rem;
+  }
+
+  .homeDiv {
+    justify-content: center;
+    align-items: center;
+  }
+}

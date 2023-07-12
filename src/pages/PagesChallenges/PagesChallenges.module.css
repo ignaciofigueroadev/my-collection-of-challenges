@@ -1,0 +1,19 @@
+.pagesChallenges {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    place-items: center;
+    margin-bottom: 35px;
+}
+
+@media (width > 810px) {
+    .pagesChallenges {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width > 1200px) {
+    .pagesChallenges {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

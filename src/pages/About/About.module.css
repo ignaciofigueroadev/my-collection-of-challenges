@@ -1,0 +1,45 @@
+.about {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.aboutArticle {
+    border: 1px solid var(--black);
+    border-radius: .4375rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 10px 10px var(--black-opac);
+
+}
+
+.aboutQuotes {
+    font-size: 2.5rem;
+}
+
+.aboutTitle {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+@media (width > 1023px) {
+    .aboutArticle {
+        width: 80%;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+}
