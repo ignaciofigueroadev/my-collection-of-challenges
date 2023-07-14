@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "img": "/images/pages-images/sunnysude-agency-landing-page.png",
+      "title": "Sunnyside agency landing page",
+      "description": "Challenge of Frontend Mentor",
+      "technologies": "HTML & SASS | vanilla JS",
+      "github": "https://github.com/ignaciofigueroadev/sunnyside-agency-landing-page",
+      "live": "https://ignaciofigueroadev.github.io/sunnyside-agency-landing-page/"
+    },
+    {
+      "id": 2,
+      "img": "/images/pages-images/loopstudios-landing-page.png",
+      "title": "Loopstudios landing page",
+      "description": "Challenge of Frontend Mentor",
+      "technologies": "HTML & SASS | vanilla JS",
+      "github": "https://github.com/ignaciofigueroadev/loopstudios-landing-page/tree/main",
+      "live": "https://ignaciofigueroadev.github.io/loopstudios-landing-page/"
+    },
+    {
+      "id": 3,
+      "img": "/images/pages-images/interior-consultant-challenge.png",
+      "title": "Interior consultant challenge",
+      "description": "Challenge of devChallenges",
+      "technologies": "HTML & SASS | vanilla JS",
+      "github": "https://github.com/ignaciofigueroadev/interior-consultant-challenge",
+      "live": "https://ignaciofigueroadev.github.io/interior-consultant-challenge/"
+    },
+    {
+      "id": 4,
+      "img": "/images/pages-images/news-homepage-challenge-main.jpg",
+      "title": "News homepage main challenge",
+      "description": "Challenge of Frontend Mentor",
+      "technologies": "Reactjs | SASS",
+      "github": "https://github.com/ignaciofigueroadev/news-homepage-main",
+      "live": "https://ignaciofigueroadev.github.io/news-homepage-main/"
+    }
+  ]
+}
